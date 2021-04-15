@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap");
+.card3__img__icon, .card2__bg__icon, .card1__bg__icon {
+  position: absolute;
+  width: 50px;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  top: 20px;
+  right: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.card3__img__icon:hover, .card2__bg__icon:hover, .card1__bg__icon:hover {
+  color: brown;
+  background-color: violet;
+}
+
+.content2, .content1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card1 {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px gray;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+.card1__bg {
+  width: 100%;
+  height: 100%;
+  height: 150px;
+  background-image: url(./image/1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.card1__content {
+  padding: 0 25px;
+  margin: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  position: relative;
+}
+.card1__content__view {
+  position: absolute;
+  padding: 12px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #4054f5, #2a6cf5);
+  bottom: 20px;
+  left: 100px;
+}
+.card1__content__view a {
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.card1__content__view a:hover {
+  color: brown;
+}
+.card1__title {
+  font-size: larger;
+  padding: 10px;
+  font-weight: bolder;
+}
+.card1 .word {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(to top, white, black);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.card2 {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px gray;
+  position: relative;
+  background-image: url(./image/2.png);
+  width: 700px;
+  background-position: bottom -12px left -8px;
+}
+.card2__bg__icon {
+  background-color: aliceblue;
+  color: #4054f5;
+}
+.card2__view {
+  position: absolute;
+  padding: 12px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #4054f5, #2a6cf5);
+  right: 20px;
+  bottom: 30px;
+}
+.card2__view a {
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.card2__view a:hover {
+  color: brown;
+}
+.card2__content {
+  position: absolute;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: bolder;
+  width: 300px;
+  height: 80px;
+  bottom: 30px;
+  padding-left: 20px;
+}
+.card2__content:hover {
+  border-left: 3px solid #73dcb5;
+}
+.card2__content p {
+  color: #73dcb5;
+}
+.card2__content h1 {
+  font-size: 2rem;
+  color: white;
+  margin-top: 20px;
+}
+
+.card3 {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px gray;
+  width: 300px;
+  height: 280px;
+  position: relative;
+}
+.card3 img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.card3__img {
+  position: relative;
+}
+.card3__img__icon {
+  color: white;
+  background-color: blue;
+}
+.card3__content {
+  position: relative;
+  bottom: 0;
+  padding: 15px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.card3__content__title {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  padding-bottom: 5px;
+}
+.card3__content p {
+  color: gray;
+  padding-top: 5px;
+}
+.card3__content__heart {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+.card3__content__heart img {
+  cursor: pointer;
+}
+.card3__content__heart:hover {
+  bottom: 17px;
+}
+
+.card4 {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px gray;
+  background-image: url(./image/4.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 250px;
+  padding: 15px;
+  position: relative;
+}
+.card4__play {
+  position: absolute;
+  left: 145px;
+  top: 100px;
+}
+.card4__play img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.card4__play:hover {
+  top: 99px;
+}
+.card4__content {
+  font-family: "IBM Plex Sans", sans-serif;
+  position: absolute;
+  bottom: 20px;
+  width: 90%;
+  height: 60px;
+  color: white;
+}
+.card4__content__title {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+.card4__content img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  bottom: 20px;
+}
+
+/*# sourceMappingURL=mystyless.css.map */
